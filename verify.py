@@ -24,9 +24,3 @@ if __name__ == '__main__':
     print_pregunta(pregunta['enunciado'],pregunta['alternativas'])
     respuesta = input('Escoja la alternativa correcta:\n> ').lower()
     verificar(pregunta['alternativas'], respuesta)
-
-
-
-
-
-
