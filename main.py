@@ -33,9 +33,10 @@ opcion = validate(['0', '1'], opcion)
 
 # 2. Definir el comportamiento de Salir
 if opcion == '0':
-    print()
+    print("Saliendo del programa")
     time.sleep(2)
     os.system(op_sys)
+    exit()
     # finalizar programa
 
 # Funcionamiento de preguntas
